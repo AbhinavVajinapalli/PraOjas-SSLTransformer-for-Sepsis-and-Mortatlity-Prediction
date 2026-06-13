@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Data (raw/large) — keep curated evaluation_results tracked
+data/
+data_raw/
+data_processed/
+*.parquet
+*.h5
+*.sql
+*.db
+*.sqlite
+
+# Large artifacts / models
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+bio_clinical_ssl_trained/
+timeseries_encoder_ssl/
+
+# Archives and packages
+*.zip
+*.tar.gz
+*.tgz
+
+# Credentials and keys (DO NOT COMMIT)
+service_account.json
+credentials.json
+*.key
+*.pem
+token.json
+.google_credentials
+
+# Misc
+*.cache
+tmp/
+temp/
+
+# Allow evaluation results and README to remain tracked
+!evaluation_results/
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
