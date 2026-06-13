@@ -1,6 +1,6 @@
 # PraOjas
 
-**A self-supervised multimodal transformer for early sepsis and mortality risk prediction from MIMIC-IV ICU data.**
+**A self-supervised multimodal transformer for early sepsis and mortality risk prediction.**
 
 PraOjas combines clinical text and structured time-series signals to learn patient representations that support early risk stratification, calibration analysis, explainability, and ablation-based evaluation.
 
